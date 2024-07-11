@@ -15,8 +15,8 @@ public class EjercicioClaseMath06 {
         // lee el número superior ingresado
         int limiteSuperior = scanner.nextInt();
         // utilizamos math.random() para que nos de un número aleatorio de acuerdo al rango previamente especificado
-        // (Math.random() * (max - min + 1) + min)
-        int numeroRandom = (int) (Math.random() * (limiteSuperior - limiteInferior + 1) + limiteInferior);
+        // (Math.random() * (max - min + 1)) + min
+        int numeroRandom = (int) (Math.random() * (limiteSuperior - limiteInferior + 1)) + limiteInferior;
         // imprimimos el número aleatorio que obtuvimos
         System.out.println("Número aleatorio generado: " + numeroRandom);
         // cerramos el objeto scanner para liberar recursos
